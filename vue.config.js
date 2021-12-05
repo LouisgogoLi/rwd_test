@@ -13,5 +13,5 @@ module.exports = {
   configureWebpack: {
     devtool: "source-map",
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/rwd_test/" : "/",
 };
