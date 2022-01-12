@@ -15,18 +15,16 @@
 </template>
 
 <script>
-import { ref } from "vue";
 export default {
-  setup() {
-    const isOpen = ref(false);
-    const handManuOpen = () => {
-      isOpen.value = !isOpen.value;
-    };
-    return {
-      isOpen,
-      handManuOpen,
-    };
-  },
+  name: "Header",
+};
+</script>
+
+<script setup>
+import { ref } from "vue";
+const isOpen = ref(false);
+const handManuOpen = () => {
+  isOpen.value = !isOpen.value;
 };
 </script>
 
