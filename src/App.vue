@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Header />
-    <Article />
-    <Aside />
-    <Main />
-    <Footer />
+    <HeaderComponent />
+    <ArticleComponent />
+    <AsideComponent />
+    <MainComponent />
+    <FooterComponent />
   </div>
 </template>
 
@@ -15,11 +15,11 @@ export default {
 </script>
 
 <script setup>
-import Header from "@/components/Header.vue";
-import Article from "@/components/Article.vue";
-import Aside from "@/components/Aside.vue";
-import Main from "@/components/Main.vue";
-import Footer from "@/components/Footer.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import ArticleComponent from "@/components/ArticleComponent.vue";
+import AsideComponent from "@/components/AsideComponent.vue";
+import MainComponent from "@/components/MainComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 </script>
 
 <style>

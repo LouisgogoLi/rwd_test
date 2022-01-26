@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "Article",
+  name: "ArticleComponent",
 };
 </script>
 
